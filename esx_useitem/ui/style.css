@@ -1,0 +1,147 @@
+﻿
+/*-------------- Déclaration des polices non standard utilisées -------------- */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#affiche{
+  display: none;
+}
+
+#affiche h1{
+	margin: 0;
+	padding: 0;
+	color: #59ab6d;
+	font-family: 'Teko', sans-serif;
+	font-size: 26px;
+	-webkit-font-smoothing: antialiased;
+}
+	
+#affiche h2{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+	-webkit-font-smoothing: antialiased;
+}
+
+#affiche h3{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 26px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#affiche p{
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+#affiche p.imp {
+	color: #fff;
+	font-size: 0.8em;
+	text-align: left;
+	margin: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/*--------------  DIV principale du "affiche" -------------- */
+
+   
+#affiche .overlay{
+	position:fixed;
+	z-index: 1;    
+	width: 100%;					
+	height:100%;					
+	margin: 0;    					
+	text-align: center;
+	background: #000;				
+	opacity: 0.40; 									 
+}
+
+/*--------------  DIV principale du "affiche" -------------- */
+
+   
+#affiche .contenair{
+	position:absolute;
+	z-index: 2;    
+	width: 1438px;									
+	height:948px;									
+	left:35%;										
+	top:38%;										
+	margin:-350px 0 0 -500px;    					
+	text-align: center;
+	background: url('img/pp.png');				
+	padding: none; 									
+    
+}
+	
+/*-------------- DIV contenant les textes du affiche --------------*/
+
+	
+#affiche .innerbox{
+	z-index: 2;
+	width: 650px;	
+	margin-left: 20px;  
+	text-align: left;
+	background: transparent;
+	-webkit-font-smoothing: antialiased;
+}
+
+#affiche .innerbox2{
+	z-index: 2;
+	position: absolute;
+	width: 650px;	
+	right: 20px;
+	top: 10px; 
+	text-align: left;
+	background: transparent;
+	-webkit-font-smoothing: antialiased;
+}
+	
+#affiche .spacer{
+	z-index: 2;
+	width: 100%;
+	height: 120px;
+  margin: 0;  
+	text-align: left;
+  background: transparent;	
+}
+
+#affiche .footspacer{
+	z-index: 2;
+	width: 100%;
+	height: 80px;
+  margin: 0;  
+	text-align: left;
+  background: transparent;	
+}
+	
+#affiche .footerbox{
+  z-index: 2;
+  width: 450px;	
+  margin: 80px 0px 0px 480px;
+  height: 110px;
+  text-align: left; 
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
